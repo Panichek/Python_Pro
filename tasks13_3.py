@@ -12,9 +12,6 @@ class HelloWorldCommand:
     def execute(self):
         self.command.print_hello_world()
 
-    def print_hello_world(self):
-        print("Hello World!")
-
 
 class ReceiverCommand:
     def print_hello_world(self):
